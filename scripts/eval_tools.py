@@ -203,29 +203,29 @@ def eval_entityF1(output_fp, slot_fp):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--eval_select", action='store_true')
-    parser.add_argument("--eval_generate", action='store_true')
     parser.add_argument("--eval_file", type=str)
+    parser.add_argument("--eval_metric", type=str, choices=["Acc", "MRR", "BLEU", "Entity-F1"])
     parser.add_argument("--slot_file", default="data/slot_vocab.txt", type=str)
     parser.add_argument("--top_k", default=3, type=int)
     args = parser.parse_args()
-
-    if args.eval_select:
+    print("Evaluate [%s]" % args.eval_file)
+    
+    if args.eval_metric == "Acc":
         # eval Acc
         acc_tm, acc_em = eval_acc(args.eval_file)
         print("ACC_tm: %.3f" % acc_tm)
         print("ACC_em: %.3f" % acc_em)
-
+    elif args.eval_metric == "MRR":
         # eval MRR
         mrr = eval_MRR(args.eval_file, top_k=args.top_k)
         print("MRR@%d: %.3f" % (args.top_k, mrr))
-    elif args.eval_generate:
+    elif args.eval_metric == "BLEU":
         # eval BLEU
         bleu = eval_bleu(args.eval_file)
         print("BLEU: %.3f" % bleu)
-
+    elif args.eval_metric == "Entity-F1":
         # eval Entity F1
         entity_f1 = eval_entityF1(args.eval_file, args.slot_file)
         print("Entity F1: %.3f" % entity_f1)
     else:
-        raise ValueError("eval_select or eval_generate should be set!")
+        raise ValueError("eval_metric should be set within `Acc`, `MRR`, `BLEU`, `Entity-F1`!")

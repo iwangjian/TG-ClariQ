@@ -118,6 +118,8 @@ def run_test(args):
             test_data.append({
                 "query": query,
                 "question": question,
+                "question_template": sample["question_template"],
+                "question_slot": sample["question_slot"],
             })
             pages = " [SEP] ".join(list(sample["pages"]))
             input_text = query + " [SEP] " + pages
@@ -169,6 +171,8 @@ def run_test(args):
         preds.append({
             "query": sample["query"],
             "question": sample["question"],
+            "question_template": sample["question_template"],
+            "question_slot": sample["question_slot"],
             "pred": pred_question
         })
 

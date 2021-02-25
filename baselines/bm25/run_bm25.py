@@ -41,6 +41,8 @@ def run_bm25(question_corpus, test_path, out_dir, task, top_k=3):
             preds.append({
                 "query": sample["query"],
                 "question": sample["question"],
+                "question_template": sample["question_template"],
+                "question_slot": sample["question_slot"],
                 "pred": pred_question
             })
     out_path = "%s/test_output_%s.txt" % (out_dir, task)

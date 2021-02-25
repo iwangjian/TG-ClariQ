@@ -109,10 +109,12 @@ def run_test(args):
             raw_test.append({
                 "query": query,
                 "question": question,
+                "question_template": sample["question_template"],
+                "question_slot": sample["question_slot"],
             })
             pages = " [SEP] ".join(list(sample["pages"]))
             input_text = query + " [SEP] " + pages
-            test_data.append((input_text, ))
+            test_data.append((input_text, question))
     logging.info("Test: {}".format(len(test_data)))
     
     ns_sampler = NegativeSampler(candidates=question_bank, 
@@ -154,6 +156,8 @@ def run_test(args):
             preds.append({
                 "query": sample["query"],
                 "question": sample["question"],
+                "question_template": sample["question_template"],
+                "question_slot": sample["question_slot"],
                 "pred": pred_question
             })
         # save output

@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 python3 src/main.py --do_train \
+        --data_dir=data \
+        --log_dir=log/ours/bert \
+        --text_encoder=bert \
+        --bert_model_dir=pretrain/bert/base-uncased \
+        --ns_num=2 \
+        --hidden_size=768 \
+        --num_attention_heads=8 \
+        --num_layers=3 \
+        --batch_size=8 \
+        --num_epochs=5 \
+        --log_steps=100 \
+        --validate_steps=1000 \
+        --lr=2e-5

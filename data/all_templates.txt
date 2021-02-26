@@ -1,0 +1,8 @@
+select one to refine your search
+what (do you want | would you like) to know about (.+)?
+(which | what) (.+) do you mean?
+(what | which) (.+) are you looking for?
+what (do you want | would you like) to do with (.+)?
+who are you shopping for?
+what are you trying to do?
+do you have any (specific | particular) (.+) in mind?

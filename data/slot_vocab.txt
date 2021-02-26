@@ -1,0 +1,258 @@
+<EMPTY>
+<QUERY>
+city	1681
+version of windows	1348
+business	659
+medical condition	634
+condition	582
+place	460
+restaurant	364
+university	351
+band	348
+company	341
+bible translation	307
+game	228
+school	228
+medication	227
+movie	225
+format	211
+version of excel	189
+song information	138
+marketplace	130
+version of word	128
+film	126
+version of outlook	123
+car	117
+one	111
+vehicle	110
+product	103
+show information	103
+device	95
+book	89
+operating system	88
+system type	86
+resolution	80
+organization	77
+tv show	70
+food information	68
+team information	64
+sport	64
+version	62
+person	61
+television series	59
+district	56
+building	55
+information	54
+type of business	51
+gender group	49
+field	46
+airport	46
+kind of school	43
+genre	43
+radio station	42
+service	41
+program	41
+product information	41
+browser	41
+type of media	40
+airline	40
+language	40
+village	38
+musical group	38
+size	36
+job information	36
+food	36
+architecture	32
+organisation	29
+country	29
+park	28
+application	28
+unit	27
+area	27
+town	26
+kind of doctor	25
+video game	25
+version of internet explorer	24
+drug	23
+state	23
+platform	23
+sports venue	22
+material	22
+position	21
+procedure	21
+learning materials	21
+team	20
+phone	20
+college	20
+office application	19
+hospital	19
+year	18
+song	17
+occupation	17
+event	17
+document format	16
+channel	15
+office	15
+hotel	14
+island	13
+club	13
+comic	13
+test	12
+disease	12
+protocol	11
+instrument	11
+novel	11
+brand	11
+form	10
+newspaper	10
+hurricane	9
+magazine	9
+church	9
+resort	8
+plant	8
+length	8
+type	8
+carrier	8
+municipality	7
+site	7
+version of powerpoint	7
+brand of pc	7
+store	7
+tense	7
+bank	7
+do you have any me	6
+commune	6
+kind of job	6
+shopping mall	5
+region	5
+library	5
+museum	5
+iphone	5
+license	5
+surname	5
+gauge	5
+military unit	4
+doctor	4
+house	4
+code	4
+currency	4
+aircraft	4
+television station	4
+community	4
+county	3
+phase	3
+size group	3
+landform	3
+division	3
+fluid	3
+bird	3
+ship	3
+agency	3
+documentation	3
+sign	3
+programming language	3
+player	2
+show	2
+surgery	2
+position information	2
+web series	2
+section	2
+sleeve length	2
+organism	2
+shape	2
+tribe	2
+compound	2
+ory	2
+cruise	2
+journal	2
+function	2
+television episode	2
+award	2
+fabric	2
+gun	2
+kind of a gift	2
+punctuation	2
+cell	2
+syndrome	2
+equipment	2
+fish	2
+font	2
+railway line	2
+certification information	2
+class	2
+type of device	2
+disaster	2
+engine	2
+township	2
+footpath	2
+music group	2
+century	2
+exercise	2
+rifle	1
+conference	1
+processor	1
+competition	1
+tree	1
+chemical	1
+insurance	1
+school information	1
+time	1
+battle	1
+opera	1
+cleaner	1
+insect	1
+league	1
+frequency	1
+wine	1
+style of the product	1
+valley	1
+kind of snake	1
+satellite	1
+e-mails	1
+microsoft product	1
+vitamin	1
+element	1
+role	1
+cable	1
+kind of fish	1
+e-book	1
+railway station	1
+day	1
+ice hockey league	1
+profession	1
+appliance	1
+type of game	1
+enzyme	1
+model	1
+artificial satellite	1
+direction	1
+auto racing team	1
+mountain	1
+bone	1
+kind of motorcycle	1
+data type	1
+working up insulinoma	1
+valve	1
+race	1
+television documentary	1
+antivirus	1
+album	1
+clef	1
+topic	1
+lake	1
+version of sharepoint	1
+animal	1
+title	1
+type of plate	1
+radio program	1
+bridge	1
+type of machine	1
+kind of dog	1
+pokemon	1
+salad	1
+temple	1
+mineral	1
+type of bond	1
+subject	1
+record label	1
+tournament bracket	1

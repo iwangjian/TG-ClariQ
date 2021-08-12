@@ -204,13 +204,13 @@ def eval_entityF1(output_fp, slot_fp):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--eval_file", type=str)
-    parser.add_argument("--eval_metric", type=str, choices=["Acc", "MRR", "BLEU", "Entity-F1"])
+    parser.add_argument("--eval_metric", type=str, choices=["ACC", "MRR", "BLEU", "Entity-F1"])
     parser.add_argument("--slot_file", default="data/slot_vocab.txt", type=str)
     parser.add_argument("--top_k", default=3, type=int)
     args = parser.parse_args()
     print("Evaluate [%s]" % args.eval_file)
     
-    if args.eval_metric == "Acc":
+    if args.eval_metric == "ACC":
         # eval Acc
         acc_tm, acc_em = eval_acc(args.eval_file)
         print("ACC_tm: %.3f" % acc_tm)
@@ -228,4 +228,4 @@ if __name__ == "__main__":
         entity_f1 = eval_entityF1(args.eval_file, args.slot_file)
         print("Entity F1: %.3f" % entity_f1)
     else:
-        raise ValueError("eval_metric should be set within `Acc`, `MRR`, `BLEU`, `Entity-F1`!")
+        raise ValueError("eval_metric should be set within `ACC`, `MRR`, `BLEU`, `Entity-F1`!")

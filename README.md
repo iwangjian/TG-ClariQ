@@ -1,5 +1,5 @@
 # TG-ClariQ
-This repository contains data and code for the paper "[Template-guided Clarifying Question Generation for Web Search Clarification]()(to be updated)" (CIKM'2021).
+This repository contains data and code for the short paper "[Template-guided Clarifying Question Generation for Web Search Clarification]()(to be updated)" (CIKM'2021).
 
 In this paper, we frame the task of asking clarifying questions for Web search clarification as the unified problem of question template selection and slot generation, with the objective of jointly learning to select the question template from a list of template candidates and fill in the question slot from a slot vocabulary. We investigate a simple yet effective Template-Guided Clarifying Question generation model (TG-ClariQ), the architecture of which is illustrated as below:
 <p align="center">
@@ -17,7 +17,7 @@ Note: The `RankLib.jar` in the baseline models (RankNet and LambdaMART) needs Ja
 The pre-trained BERT model can be downloaded from Hugging Face's [model card](https://huggingface.co/bert-base-uncased/tree/main), please download `config.json`, `pytorch_model.bin`, `vocab.txt` and place these files into the folder `pretrain/bert/base-uncased/`. The pre-trained Glove word vectors can be downloaded from [here](http://nlp.stanford.edu/data/glove.42B.300d.zip), then unzip the file as `glove.42B.300d.txt` and place into the folder `pretrain/glove/`.
 
 ## Dataset
-We have uploaded the preprocessed MIMICS dataset to the `data/` folder. For more details about the raw MIMICS data collection, please refer to the Microsoft [MIMICS](https://github.com/microsoft/MIMICS) repo.
+We have uploaded the preprocessed MIMICS dataset to the `data/` folder, where the `MIMICS-train.zip` needs to be unzipped. For more details about the raw MIMICS data collection, please refer to the Microsoft [MIMICS](https://github.com/microsoft/MIMICS) repo.
 
 ## Quickstart
 

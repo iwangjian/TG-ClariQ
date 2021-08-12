@@ -3,7 +3,7 @@ This repository contains data and code for the paper "[Template-guided Clarifyin
 
 In this paper, we frame the task of asking clarifying questions for Web search clarification as the unified problem of question template selection and slot generation, with the objective of jointly learning to select the question template from a list of template candidates and fill in the question slot from a slot vocabulary. We investigate a simple yet effective Template-Guided Clarifying Question generation model (TG-ClariQ), the architecture of which is illustrated as below:
 <p align="center">
-<img src="fig/TG-ClariQ.png" width="60%" />
+<img src="fig/TG-ClariQ.png" width="50%" />
 </p>
 
 

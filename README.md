@@ -1,5 +1,5 @@
 # TG-ClariQ
-This repository contains data and code for the short paper "[Template-guided Clarifying Question Generation for Web Search Clarification]()(to be updated)" (CIKM'2021).
+This repository contains data and code for the short paper "[Template-guided Clarifying Question Generation for Web Search Clarification](https://iwangjian.github.io/pdf/CIKM2021.wang.pdf)" (CIKM'2021).
 
 In this paper, we frame the task of asking clarifying questions for Web search clarification as the unified problem of question template selection and slot generation, with the objective of jointly learning to select the question template from a list of template candidates and fill in the question slot from a slot vocabulary. We investigate a simple yet effective Template-Guided Clarifying Question generation model (TG-ClariQ), the architecture of which is illustrated as below:
 <p align="center">
@@ -44,11 +44,11 @@ sh run_eval.sh
 ```
 
 ## Acknowledgments
-Our implementation of the baseline models (RankNet and LambdaMART) is based on the [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/), the Seq2Seq is based on the [OpenNMT](https://github.com/OpenNMT/OpenNMT-py). We thank the [Hugging Face Transformers](https://github.com/huggingface/transformers) for their thousands of pretrained models and highly elegant codes.
+Our implementation of the baseline models (RankNet and LambdaMART) is based on the [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/), the Seq2Seq is based on the [OpenNMT](https://github.com/OpenNMT/OpenNMT-py). We thank the [Hugging Face Transformers](https://github.com/huggingface/transformers) for their pretrained models and highly elegant codes.
 
 
 ## Citation
-If you use our code in your work, you can cite our paper as:
+If you find our code is helpful in your work, you can cite our paper as:
 ```
 @inproceedings{wang2021template,
   title={Template-guided Clarifying Question Generation for Web Search Clarification},

@@ -1,7 +1,7 @@
 # TG-ClariQ
-This repository contains data and code for the short paper "[Template-guided Clarifying Question Generation for Web Search Clarification](https://iwangjian.github.io/pdf/CIKM2021.wang.pdf)" (CIKM'2021).
+This repository contains code and data for the short paper "[Template-guided Clarifying Question Generation for Web Search Clarification](https://iwangjian.github.io/pdf/CIKM2021.wang.pdf)" (CIKM'2021).
 
-In this paper, we frame the task of asking clarifying questions for Web search clarification as the unified problem of question template selection and slot generation, with the objective of jointly learning to select the question template from a list of template candidates and fill in the question slot from a slot vocabulary. We investigate a simple yet effective Template-Guided Clarifying Question generation model (TG-ClariQ), the architecture of which is illustrated as below:
+In this paper, we frame the task of asking clarifying questions for Web search clarification as the unified problem of question template selection and slot generation, with the objective of jointly learning to select the question template from a list of template candidates and fill in the question slot from a slot vocabulary. We investigate a simple yet effective Template-Guided Clarifying Question generation model (TG-ClariQ), the architecture of which is shown as below:
 <p align="center">
 <img src="fig/TG-ClariQ.png" width="50%" />
 </p>
@@ -51,9 +51,10 @@ Our implementation of the baseline models (RankNet and LambdaMART) is based on t
 If you find our code is helpful in your work, you can cite our paper as:
 ```
 @inproceedings{wang2021template,
-  title={Template-guided Clarifying Question Generation for Web Search Clarification},
-  author={Wang, Jian and Li, Wenjie},
-  booktitle={Proceedings of the 30th ACM International Conference on Information and Knowledge Management (CIKM'21)},
-  year={2021}
+  title = {Template-guided Clarifying Question Generation for Web Search Clarification},
+  author = {Wang, Jian and Li, Wenjie},
+  booktitle = {Proceedings of the 30th ACM International Conference on Information and Knowledge Management (CIKM'21)},
+  year = {2021},
+  pages = {3468–3472},
 }
 ```

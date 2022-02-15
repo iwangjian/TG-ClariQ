@@ -8,7 +8,7 @@ In this paper, we frame the task of asking clarifying questions for Web search c
 
 
 ## Requirements
-The implementation is based on Python 3.x. To install the dependencies, please run:
+The implementation is based on Python 3. To install the dependencies, please run:
 ```
 pip install -r requirements.txt
 ```
@@ -44,7 +44,7 @@ sh run_eval.sh
 ```
 
 ## Acknowledgments
-Our implementation of the baseline models (RankNet and LambdaMART) is based on the [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/), the Seq2Seq is based on the [OpenNMT](https://github.com/OpenNMT/OpenNMT-py). We thank the [Hugging Face Transformers](https://github.com/huggingface/transformers) for their pretrained models and highly elegant codes.
+Our implementation of the RankNet and LambdaMART is based on the [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/), the Seq2Seq is based on the [OpenNMT](https://github.com/OpenNMT/OpenNMT-py). We thank the [Hugging Face Transformers](https://github.com/huggingface/transformers) for the pretrained models and high-quality code.
 
 
 ## Citation

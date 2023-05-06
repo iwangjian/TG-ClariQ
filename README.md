@@ -1,5 +1,5 @@
 # TG-ClariQ
-This repository contains code and data for the short paper "[Template-guided Clarifying Question Generation for Web Search Clarification](https://iwangjian.github.io/pdf/CIKM2021.wang.pdf)" (CIKM'2021).
+This repository contains code and data for the short paper "[Template-guided Clarifying Question Generation for Web Search Clarification](https://dl.acm.org/doi/abs/10.1145/3459637.3482199)" (CIKM'2021).
 
 In this paper, we frame the task of asking clarifying questions for Web search clarification as the unified problem of question template selection and slot generation, with the objective of jointly learning to select the question template from a list of template candidates and fill in the question slot from a slot vocabulary. We investigate a simple yet effective Template-Guided Clarifying Question generation model (TG-ClariQ), the architecture of which is shown as below:
 <p align="center">
@@ -49,7 +49,7 @@ Our implementation of the RankNet and LambdaMART is based on the [RankLib](https
 
 ## Citation
 If you find our code is helpful in your work, you can cite our paper as:
-```
+```bibtex
 @inproceedings{wang2021template,
   title = {Template-guided Clarifying Question Generation for Web Search Clarification},
   author = {Wang, Jian and Li, Wenjie},
